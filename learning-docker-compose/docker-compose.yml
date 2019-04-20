@@ -1,0 +1,9 @@
+version: "3"
+services:
+  app1container:
+    image: app1
+    
+  app2container:
+    image: app2
+    ports:
+      - "8000:8000"

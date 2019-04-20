@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    build: .
+    ports:
+      - "3010:3010"
+  app1:
+    image: "app1"
+    ports: -"7999:7999"
